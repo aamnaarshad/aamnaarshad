@@ -18,12 +18,11 @@
 
 Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes building things that are equal parts functional and well-designed.
 
-- 🌐 Full-stack: from PHP+MySQL to the whole MERN stack
-- 🤖 Trained ML models to detect hate speech using ensemble NLP — check HateGuard!
-- 📱 Built a cross-platform Android/iOS app with Flutter before finishing sophomore year
-- 🛡️ I think about SQL injection and XSS prevention more than a normal person should
-- ☕ Coffee-fuelled, lo-fi-coded, bug-hunting CS student
-- 🎯 Currently: learning more · building more · breaking less
+- Full-stack: from PHP+MySQL to the whole MERN stack
+- Trained ML models to detect hate speech using ensemble NLP — check HateGuard!
+- Built a cross-platform Android/iOS app with Flutter
+- Coffee-fuelled, lo-fi-coded, bug-hunting CS student
+- Currently: learning more · building more · breaking less
 
 ---
 
@@ -57,13 +56,11 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 ### 📱 Mobile
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ### 🔧 Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
@@ -127,9 +124,7 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 🥑  the repo is called tired-avocado and i relate to it deeply
 🌙  i debug best at midnight with lo-fi playing
 🤖  i trained AI to detect hate speech (it works!)
-📱  flutter app before sophomore year was done
 🛡️  i think about sql injection way too often
-☕  coffee is a food group, fight me
 ```
 
 </div>
@@ -137,9 +132,6 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 ---
 
 <div align="center">
-
-### ⚡ Dev Quote
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 
 <br/><br/>
 

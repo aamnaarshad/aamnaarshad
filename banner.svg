@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 280" width="860" height="280">
+  <defs>
+    <style>
+      .twinkle1 { animation: tw 2.1s ease-in-out infinite; }
+      .twinkle2 { animation: tw 3.0s ease-in-out infinite 0.7s; }
+      .twinkle3 { animation: tw 2.6s ease-in-out infinite 1.3s; }
+      .sway      { animation: sw 5s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+      .sway2     { animation: sw 4s ease-in-out infinite reverse; transform-box: fill-box; transform-origin: bottom center; }
+      .sway3     { animation: sw 6s ease-in-out infinite 1s; transform-box: fill-box; transform-origin: bottom center; }
+      .deer      { animation: deerway 18s linear infinite; }
+      .fog       { animation: fogdrift 20s linear infinite; }
+      .fog2      { animation: fogdrift2 25s linear infinite; }
+      .title     { animation: fadeslide 1.8s ease-out forwards; }
+      .sub       { animation: fadeslide 1.8s ease-out 0.6s forwards; opacity:0; }
+      .sub2      { animation: fadeslide 1.8s ease-out 1.1s forwards; opacity:0; }
+      @keyframes tw {
+        0%,100% { opacity:1; } 50% { opacity:0.15; }
+      }
+      @keyframes sw {
+        0%,100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); }
+      }
+      @keyframes deerway {
+        0%   { transform: translateX(0px); }
+        100% { transform: translateX(900px); }
+      }
+      @keyframes fogdrift {
+        0%   { transform: translateX(-200px); opacity:0.18; }
+        50%  { opacity:0.28; }
+        100% { transform: translateX(300px); opacity:0.1; }
+      }
+      @keyframes fogdrift2 {
+        0%   { transform: translateX(200px); opacity:0.12; }
+        50%  { opacity:0.22; }
+        100% { transform: translateX(-250px); opacity:0.08; }
+      }
+      @keyframes fadeslide {
+        from { opacity:0; transform: translateY(14px); }
+        to   { opacity:1; transform: translateY(0); }
+      }
+    </style>
+
+    <!-- night sky -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#050d18"/>
+      <stop offset="40%"  stop-color="#0a1a2e"/>
+      <stop offset="75%"  stop-color="#0d2a1a"/>
+      <stop offset="100%" stop-color="#081a0e"/>
+    </linearGradient>
+
+    <!-- moon glow -->
+    <radialGradient id="moonglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ccffcc" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ccffcc" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- far hill -->
+    <linearGradient id="hill_far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0d2e14"/>
+      <stop offset="100%" stop-color="#071508"/>
+    </linearGradient>
+
+    <!-- mid hill -->
+    <linearGradient id="hill_mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#163d1a"/>
+      <stop offset="100%" stop-color="#0a2010"/>
+    </linearGradient>
+
+    <!-- ground -->
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#1a4a20"/>
+      <stop offset="100%" stop-color="#0a1e0c"/>
+    </linearGradient>
+
+    <!-- water reflection -->
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0d2030" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#050e14" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- water shimmer -->
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#4aff88" stop-opacity="0"/>
+      <stop offset="40%"  stop-color="#4aff88" stop-opacity="0.3"/>
+      <stop offset="60%"  stop-color="#4aff88" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4aff88" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- tree dark -->
+    <linearGradient id="treedark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0a2810"/>
+      <stop offset="100%" stop-color="#040f07"/>
+    </linearGradient>
+    <linearGradient id="treemid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0f3318"/>
+      <stop offset="100%" stop-color="#071408"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── SKY ── -->
+  <rect width="860" height="280" fill="url(#sky)"/>
+
+  <!-- STARS -->
+  <circle class="twinkle1" cx="28"  cy="16" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle2" cx="75"  cy="9"  r="1"   fill="#ffffff"/>
+  <circle class="twinkle3" cx="140" cy="22" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle1" cx="210" cy="8"  r="1"   fill="#ffffff"/>
+  <circle class="twinkle2" cx="295" cy="18" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle3" cx="370" cy="6"  r="1"   fill="#ffffff"/>
+  <circle class="twinkle1" cx="440" cy="20" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle2" cx="510" cy="11" r="1"   fill="#ffffff"/>
+  <circle class="twinkle3" cx="590" cy="24" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle1" cx="660" cy="7"  r="1"   fill="#ffffff"/>
+  <circle class="twinkle2" cx="730" cy="19" r="1.5" fill="#aaffcc"/>
+  <circle class="twinkle3" cx="800" cy="10" r="1"   fill="#ffffff"/>
+  <circle class="twinkle1" cx="845" cy="25" r="1.5" fill="#aaffcc"/>
+  <!-- extra faint ones -->
+  <circle class="twinkle2" cx="55"  cy="38" r="1"   fill="#88ccaa" opacity="0.6"/>
+  <circle class="twinkle3" cx="180" cy="30" r="1"   fill="#88ccaa" opacity="0.6"/>
+  <circle class="twinkle1" cx="420" cy="35" r="1"   fill="#88ccaa" opacity="0.6"/>
+  <circle class="twinkle2" cx="620" cy="32" r="1"   fill="#88ccaa" opacity="0.6"/>
+  <circle class="twinkle3" cx="780" cy="36" r="1"   fill="#88ccaa" opacity="0.6"/>
+
+  <!-- MOON -->
+  <circle cx="108" cy="52" r="55" fill="url(#moonglow)"/>
+  <circle cx="108" cy="52" r="28" fill="#e8ffe8" opacity="0.92"/>
+  <!-- moon craters -->
+  <circle cx="98"  cy="45" r="4"  fill="#c8eec8" opacity="0.5"/>
+  <circle cx="116" cy="58" r="3"  fill="#c8eec8" opacity="0.4"/>
+  <circle cx="104" cy="60" r="2"  fill="#c8eec8" opacity="0.35"/>
+
+  <!-- AURORA faint streaks -->
+  <ellipse cx="500" cy="60" rx="260" ry="28" fill="#00cc44" opacity="0.04" transform="rotate(-8 500 60)"/>
+  <ellipse cx="420" cy="45" rx="200" ry="18" fill="#00ff66" opacity="0.03" transform="rotate(-5 420 45)"/>
+
+  <!-- FAR MOUNTAINS -->
+  <polygon points="0,175 80,110 160,155 240,95 320,140 400,90 480,130 560,85 640,125 720,80 800,118 860,100 860,200 0,200"
+           fill="url(#hill_far)"/>
+
+  <!-- MID HILLS -->
+  <polygon points="0,210 60,168 140,185 220,155 310,178 400,148 490,172 580,150 670,170 760,152 860,165 860,230 0,230"
+           fill="url(#hill_mid)"/>
+
+  <!-- LAKE / WATER (center) -->
+  <ellipse cx="430" cy="248" rx="195" ry="22" fill="url(#water)"/>
+  <!-- water shimmer lines -->
+  <rect x="260" y="240" width="340" height="2" rx="1" fill="url(#shimmer)" opacity="0.5"/>
+  <rect x="290" y="245" width="280" height="1.5" rx="1" fill="url(#shimmer)" opacity="0.35"/>
+  <rect x="320" y="250" width="220" height="1" rx="1" fill="url(#shimmer)" opacity="0.2"/>
+  <!-- moon reflection in water -->
+  <ellipse cx="430" cy="248" rx="18" ry="6" fill="#ccffcc" opacity="0.18"/>
+
+  <!-- GROUND -->
+  <rect x="0" y="242" width="860" height="38" fill="url(#ground)"/>
+  <!-- grass tufts -->
+  <rect x="0"   y="242" width="260" height="38" fill="#122a14"/>
+  <rect x="600" y="242" width="260" height="38" fill="#122a14"/>
+
+  <!-- ── PINE TREES BACK ROW (silhouette) ── -->
+  <!-- left cluster -->
+  <polygon points="18,242  26,195  34,242"  fill="url(#treedark)"/>
+  <polygon points="30,242  40,182  50,242"  fill="url(#treedark)"/>
+  <polygon points="44,242  55,190  66,242"  fill="url(#treedark)"/>
+  <polygon points="56,242  65,200  74,242"  fill="url(#treedark)"/>
+  <!-- right cluster -->
+  <polygon points="786,242 796,192 806,242" fill="url(#treedark)"/>
+  <polygon points="798,242 810,178 822,242" fill="url(#treedark)"/>
+  <polygon points="812,242 824,188 836,242" fill="url(#treedark)"/>
+  <polygon points="828,242 840,198 852,242" fill="url(#treedark)"/>
+
+  <!-- ── PINE TREES FRONT ROW (with sway) ── -->
+  <!-- LEFT big trees -->
+  <g class="sway">
+    <polygon points="0,268   16,210  32,268"  fill="url(#treemid)"/>
+    <polygon points="4,255   16,186  28,255"  fill="#0f3318"/>
+    <polygon points="7,238   16,162  25,238"  fill="#122e1a"/>
+    <rect x="13" y="266" width="6" height="14" fill="#071008"/>
+  </g>
+  <g class="sway2">
+    <polygon points="22,268  38,215  54,268"  fill="url(#treemid)"/>
+    <polygon points="26,252  38,192  50,252"  fill="#0f3318"/>
+    <polygon points="29,234  38,168  47,234"  fill="#122e1a"/>
+    <rect x="35" y="266" width="6" height="14" fill="#071008"/>
+  </g>
+  <g class="sway3">
+    <polygon points="48,268  62,220  76,268"  fill="url(#treemid)"/>
+    <polygon points="51,255  62,200  73,255"  fill="#0f3318"/>
+    <rect x="59" y="266" width="5" height="12" fill="#071008"/>
+  </g>
+
+  <!-- RIGHT big trees -->
+  <g class="sway2">
+    <polygon points="808,268 824,210 840,268" fill="url(#treemid)"/>
+    <polygon points="812,255 824,186 836,255" fill="#0f3318"/>
+    <polygon points="815,238 824,162 833,238" fill="#122e1a"/>
+    <rect x="821" y="266" width="6" height="14" fill="#071008"/>
+  </g>
+  <g class="sway">
+    <polygon points="828,268 844,215 860,268" fill="url(#treemid)"/>
+    <polygon points="832,252 844,192 856,252" fill="#0f3318"/>
+    <polygon points="835,234 844,168 853,234" fill="#122e1a"/>
+    <rect x="841" y="266" width="6" height="14" fill="#071008"/>
+  </g>
+
+  <!-- BUSH / UNDERGROWTH -->
+  <ellipse cx="90"  cy="258" rx="50" ry="14" fill="#0d2810"/>
+  <ellipse cx="770" cy="258" rx="50" ry="14" fill="#0d2810"/>
+  <ellipse cx="175" cy="262" rx="35" ry="10" fill="#0a2010"/>
+  <ellipse cx="685" cy="262" rx="35" ry="10" fill="#0a2010"/>
+
+  <!-- DEER silhouette walking across (loops from left edge) -->
+  <g class="deer" transform="translate(-120, 0)">
+    <!-- body -->
+    <ellipse cx="120" cy="238" rx="22" ry="10" fill="#05120a"/>
+    <!-- neck -->
+    <rect x="133" y="224" width="7" height="16" fill="#05120a" rx="3"/>
+    <!-- head -->
+    <ellipse cx="138" cy="221" rx="8" ry="6" fill="#05120a"/>
+    <!-- antlers -->
+    <line x1="136" y1="216" x2="130" y2="206" stroke="#05120a" stroke-width="2"/>
+    <line x1="130" y1="206" x2="125" y2="200" stroke="#05120a" stroke-width="1.5"/>
+    <line x1="130" y1="206" x2="133" y2="200" stroke="#05120a" stroke-width="1.5"/>
+    <line x1="140" y1="216" x2="146" y2="205" stroke="#05120a" stroke-width="2"/>
+    <line x1="146" y1="205" x2="142" y2="199" stroke="#05120a" stroke-width="1.5"/>
+    <line x1="146" y1="205" x2="150" y2="199" stroke="#05120a" stroke-width="1.5"/>
+    <!-- legs -->
+    <line x1="108" y1="247" x2="104" y2="265" stroke="#05120a" stroke-width="3"/>
+    <line x1="115" y1="247" x2="112" y2="265" stroke="#05120a" stroke-width="3"/>
+    <line x1="125" y1="247" x2="128" y2="265" stroke="#05120a" stroke-width="3"/>
+    <line x1="132" y1="247" x2="136" y2="265" stroke="#05120a" stroke-width="3"/>
+    <!-- tail -->
+    <ellipse cx="100" cy="236" rx="5" ry="4" fill="#0a1f10"/>
+  </g>
+
+  <!-- FOG LAYERS -->
+  <ellipse class="fog"  cx="200" cy="230" rx="300" ry="30" fill="#aaffcc" opacity="0.07"/>
+  <ellipse class="fog2" cx="650" cy="235" rx="280" ry="25" fill="#aaffcc" opacity="0.05"/>
+
+  <!-- FIREFLIES -->
+  <circle class="twinkle1" cx="255" cy="218" r="2"   fill="#44ff88" opacity="0.8"/>
+  <circle class="twinkle2" cx="280" cy="232" r="1.5" fill="#44ff88" opacity="0.7"/>
+  <circle class="twinkle3" cx="600" cy="222" r="2"   fill="#44ff88" opacity="0.8"/>
+  <circle class="twinkle1" cx="580" cy="235" r="1.5" fill="#44ff88" opacity="0.7"/>
+  <circle class="twinkle2" cx="230" cy="240" r="1.5" fill="#44ff88" opacity="0.6"/>
+  <circle class="twinkle3" cx="630" cy="238" r="1.5" fill="#44ff88" opacity="0.6"/>
+
+  <!-- ── TEXT ── -->
+  <text class="title" x="430" y="142"
+    font-family="'Segoe UI', 'Georgia', serif"
+    font-size="46" font-weight="700" fill="white" text-anchor="middle"
+    style="filter:drop-shadow(0 3px 12px rgba(0,0,0,0.9)) drop-shadow(0 0 20px rgba(68,255,136,0.2));">
+    Hi, I'm Amna Arshad
+  </text>
+  <text class="sub" x="430" y="182"
+    font-family="'Segoe UI', 'Courier New', monospace"
+    font-size="22" fill="#7aefaa" text-anchor="middle"
+    style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.9));">
+    MERN · ML/NLP · Flutter · PHP
+  </text>
+  <text class="sub2" x="430" y="212"
+    font-family="'Segoe UI', sans-serif"
+    font-size="17" fill="#4aaa70" text-anchor="middle"
+    style="filter:drop-shadow(0 2px 6px rgba(0,0,0,0.9));">
+  </text>
+</svg>

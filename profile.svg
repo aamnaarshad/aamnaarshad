@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1060" viewBox="0 0 820 1060">
+  <defs>
+    <style>
+      .vt { font-family: 'VT323', 'Courier New', monospace; }
+      .marquee-text { animation: scroll 28s linear infinite; }
+      @keyframes scroll { from { transform: translateX(840px); } to { transform: translateX(-2800px); } }
+      .blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .spin { animation: spin 0.5s step-end infinite; }
+      @keyframes spin { 0%{fill:#000080} 25%{fill:#880044} 50%{fill:#006655} 75%{fill:#884400} }
+      .prog1 { animation: p1 2.5s ease-out forwards; }
+      @keyframes p1 { from{width:0} to{width:377px} }
+      .prog2 { animation: p2 2.5s ease-out forwards; }
+      @keyframes p2 { from{width:0} to{width:370px} }
+      .prog3 { animation: p3 2.5s ease-out forwards; }
+      @keyframes p3 { from{width:0} to{width:260px} }
+    </style>
+    <linearGradient id="g-blue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#000080"/><stop offset="100%" stop-color="#1084d0"/></linearGradient>
+    <linearGradient id="g-pink" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#880044"/><stop offset="100%" stop-color="#cc3377"/></linearGradient>
+    <linearGradient id="g-purple" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#440088"/><stop offset="100%" stop-color="#7733cc"/></linearGradient>
+    <linearGradient id="g-teal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#006655"/><stop offset="100%" stop-color="#00aa88"/></linearGradient>
+    <linearGradient id="g-orange" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#884400"/><stop offset="100%" stop-color="#dd7711"/></linearGradient>
+    <linearGradient id="g-red" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8b0000"/><stop offset="100%" stop-color="#cc2200"/></linearGradient>
+    <linearGradient id="g-taskbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1b8bcc"/><stop offset="100%" stop-color="#0a5ea8"/></linearGradient>
+    <linearGradient id="g-start" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4dcc44"/><stop offset="100%" stop-color="#2d9c26"/></linearGradient>
+    <linearGradient id="g-avatar" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#cc44cc"/><stop offset="50%" stop-color="#4444cc"/><stop offset="100%" stop-color="#44cccc"/></linearGradient>
+    <pattern id="stripe" width="10" height="14" patternUnits="userSpaceOnUse"><rect width="8" height="14" fill="#000080"/><rect x="8" width="2" height="14" fill="#6688cc"/></pattern>
+    <pattern id="stripe2" width="10" height="14" patternUnits="userSpaceOnUse"><rect width="8" height="14" fill="#884400"/><rect x="8" width="2" height="14" fill="#cc8844"/></pattern>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0L0 0 0 20" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="0.5"/></pattern>
+    <clipPath id="mclip"><rect width="820" height="22"/></clipPath>
+  </defs>
+
+  <!-- DESKTOP BG -->
+  <rect width="820" height="1060" fill="#007070"/>
+  <rect width="820" height="1060" fill="url(#grid)"/>
+
+  <!-- MARQUEE -->
+  <rect width="820" height="22" fill="#000"/>
+  <g clip-path="url(#mclip)">
+    <text class="vt marquee-text" y="16" font-size="14" fill="#00ff00">
+      ·:*¨¨*:·.  WELCOME TO aamnaarshad's GITHUB  ·:*¨¨*:·.  ★  HTML · CSS · JS · React · Node · MongoDB · PHP · MySQL · Python · Flask · scikit-learn · NLTK · Flutter · Dart · Bootstrap · Android ★  5 repos · 3 followers · building cool stuff  ·:*¨¨*:·.  now playing: lo-fi beats ♫  ·:*¨¨*:·.
+    </text>
+  </g>
+
+  <!-- ═══ WINDOW 1 — PROFILE ═══ -->
+  <rect x="12" y="31" width="796" height="152" fill="rgba(0,0,0,0.35)"/>
+  <rect x="10" y="29" width="796" height="152" fill="#d4d0c8" stroke="#fff" stroke-width="1.5"/>
+  <rect x="10" y="29" width="796" height="152" fill="none" stroke="#555" stroke-width="1"/>
+  <rect x="10" y="29" width="796" height="20" fill="url(#g-blue)"/>
+  <text x="18" y="43" class="vt" font-size="14" fill="#fff">👤  aamnaarshad — My Profile.exe</text>
+  <rect x="764" y="31" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="768" y="42" class="vt" font-size="10" fill="#000">_</text>
+  <rect x="780" y="31" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="783" y="42" class="vt" font-size="10" fill="#000">□</text>
+  <rect x="796" y="31" width="10" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="799" y="42" class="vt" font-size="10" fill="#000">✕</text>
+  <!-- avatar -->
+  <rect x="18" y="53" width="66" height="66" fill="url(#g-avatar)" stroke="#555" stroke-width="1.5"/>
+  <text x="51" y="94" class="vt" font-size="32" fill="#fff" text-anchor="middle">AA</text>
+  <!-- name box -->
+  <rect x="94" y="51" width="706" height="42" fill="#fff" stroke="#999" stroke-width="0.8"/>
+  <text x="100" y="66" class="vt" font-size="13" fill="#000080">╔══════════════════════════════════════════════════════════════╗</text>
+  <text x="100" y="79" class="vt" font-size="13" fill="#000080">║  ✦  Amna Arshad  ·  CS Undergrad  ·  Design  ·  Logic  ·  ML  ·  Mobile  ✦  ║</text>
+  <text x="100" y="92" class="vt" font-size="13" fill="#000080">╚══════════════════════════════════════════════════════════════╝</text>
+  <!-- links -->
+  <rect x="94" y="97" width="706" height="20" fill="#fff" stroke="#999" stroke-width="0.8"/>
+  <text x="100" y="110" class="vt" font-size="12" fill="#880044">·:*¨¨*:·.</text>
+  <text x="168" y="110" class="vt" font-size="12" fill="#000080">  github.com/aamnaarshad  </text>
+  <text x="346" y="110" class="vt" font-size="12" fill="#555">│  linkedin: in/amnaarshad05  │  followers: 3  │  repos: 5</text>
+  <text x="692" y="110" class="vt" font-size="12" fill="#880044">·:*¨¨*:·.</text>
+  <!-- ticker -->
+  <rect x="94" y="121" width="706" height="18" fill="#fff" stroke="#999" stroke-width="0.8"/>
+  <rect x="98" y="124" width="9" height="9" class="spin"/>
+  <text x="112" y="134" class="vt" font-size="12" fill="#880044">MERN · NLP · Flutter · PHP · ML  —  please wait while awesomeness loads...</text>
+
+  <rect x="10" y="167" width="796" height="14" fill="#d4d0c8"/>
+  <rect x="10" y="167" width="796" height="1" fill="#888"/>
+  <rect x="12" y="168" width="50" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="15" y="177" class="vt" font-size="11" fill="#444">Ready</text>
+  <rect x="65" y="168" width="160" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="68" y="177" class="vt" font-size="11" fill="#444">profile.md — 5 repos loaded</text>
+  <rect x="228" y="168" width="60" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="231" y="177" class="vt" font-size="11" fill="#006655">✓ online</text>
+
+  <!-- ═══ WINDOW 2 — SKILLS (left) ═══ -->
+  <rect x="12" y="194" width="408" height="370" fill="rgba(0,0,0,0.35)"/>
+  <rect x="10" y="192" width="408" height="370" fill="#d4d0c8" stroke="#fff" stroke-width="1.5"/>
+  <rect x="10" y="192" width="408" height="370" fill="none" stroke="#555" stroke-width="1"/>
+  <rect x="10" y="192" width="408" height="20" fill="url(#g-pink)"/>
+  <text x="18" y="206" class="vt" font-size="14" fill="#fff">💾  skills.ini  — full stack</text>
+  <rect x="372" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="376" y="205" class="vt" font-size="10" fill="#000">_</text>
+  <rect x="388" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="391" y="205" class="vt" font-size="10" fill="#000">□</text>
+  <rect x="404" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="407" y="205" class="vt" font-size="10" fill="#000">✕</text>
+
+  <!-- FRONTEND -->
+  <rect x="18" y="215" width="392" height="52" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="229" class="vt" font-size="12" fill="#880044" font-weight="bold">[ FRONTEND ]</text>
+  <rect x="24" y="232" width="44" height="14" fill="#e34c26"/><text x="28" y="243" class="vt" font-size="11" fill="#fff">HTML5</text>
+  <rect x="72" y="232" width="34" height="14" fill="#264de4"/><text x="76" y="243" class="vt" font-size="11" fill="#fff">CSS3</text>
+  <rect x="110" y="232" width="22" height="14" fill="#f0db4f"/><text x="114" y="243" class="vt" font-size="11" fill="#000">JS</text>
+  <rect x="136" y="232" width="46" height="14" fill="#61dafb" stroke="#333" stroke-width="0.5"/><text x="140" y="243" class="vt" font-size="11" fill="#000">React</text>
+  <rect x="186" y="232" width="68" height="14" fill="#563d7c"/><text x="190" y="243" class="vt" font-size="11" fill="#fff">Bootstrap5</text>
+  <rect x="258" y="232" width="80" height="14" fill="#880044"/><text x="262" y="243" class="vt" font-size="11" fill="#fff">FontAwesome</text>
+  <rect x="342" y="232" width="60" height="14" fill="#764abc"/><text x="346" y="243" class="vt" font-size="11" fill="#fff">React Router</text>
+  <text x="24" y="260" class="vt" font-size="11" fill="#555">Responsive · UI/UX · Axios · AJAX (fetch API)</text>
+
+  <!-- BACKEND -->
+  <rect x="18" y="271" width="392" height="52" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="285" class="vt" font-size="12" fill="#006655" font-weight="bold">[ BACKEND ]</text>
+  <rect x="24" y="288" width="56" height="14" fill="#68a063"/><text x="28" y="299" class="vt" font-size="11" fill="#fff">Node.js</text>
+  <rect x="84" y="288" width="62" height="14" fill="#444"/><text x="88" y="299" class="vt" font-size="11" fill="#fff">Express.js</text>
+  <rect x="150" y="288" width="34" height="14" fill="#4f5d95"/><text x="154" y="299" class="vt" font-size="11" fill="#fff">PHP</text>
+  <rect x="188" y="288" width="30" height="14" fill="#3c873a"/><text x="192" y="299" class="vt" font-size="11" fill="#fff">PDO</text>
+  <rect x="222" y="288" width="66" height="14" fill="#006655"/><text x="226" y="299" class="vt" font-size="11" fill="#fff">REST APIs</text>
+  <rect x="292" y="288" width="50" height="14" fill="#884400"/><text x="296" y="299" class="vt" font-size="11" fill="#fff">Apache</text>
+  <rect x="346" y="288" width="56" height="14" fill="#f79820"/><text x="350" y="299" class="vt" font-size="11" fill="#000">XAMPP</text>
+  <text x="24" y="315" class="vt" font-size="11" fill="#555">Rate Limiting · CORS · RBAC · Session Mgmt · OOP PHP</text>
+
+  <!-- DATABASE -->
+  <rect x="18" y="327" width="392" height="36" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="341" class="vt" font-size="12" fill="#440088" font-weight="bold">[ DATABASE ]</text>
+  <rect x="24" y="344" width="66" height="14" fill="#4db33d"/><text x="28" y="355" class="vt" font-size="11" fill="#fff">MongoDB</text>
+  <rect x="94" y="344" width="56" height="14" fill="#888"/><text x="98" y="355" class="vt" font-size="11" fill="#fff">Mongoose</text>
+  <rect x="154" y="344" width="50" height="14" fill="#00758f"/><text x="158" y="355" class="vt" font-size="11" fill="#fff">MySQL</text>
+  <rect x="208" y="344" width="30" height="14" fill="#f29111"/><text x="212" y="355" class="vt" font-size="11" fill="#fff">SQL</text>
+
+  <!-- ML / AI -->
+  <rect x="18" y="367" width="392" height="52" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="381" class="vt" font-size="12" fill="#8b0000" font-weight="bold">[ ML / AI / NLP ]</text>
+  <rect x="24" y="384" width="50" height="14" fill="#3776ab"/><text x="28" y="395" class="vt" font-size="11" fill="#fff">Python</text>
+  <rect x="78" y="384" width="36" height="14" fill="#333"/><text x="82" y="395" class="vt" font-size="11" fill="#fff">Flask</text>
+  <rect x="118" y="384" width="76" height="14" fill="#f7931e"/><text x="122" y="395" class="vt" font-size="11" fill="#fff">scikit-learn</text>
+  <rect x="198" y="384" width="36" height="14" fill="#154f5b"/><text x="202" y="395" class="vt" font-size="11" fill="#fff">NLTK</text>
+  <rect x="238" y="384" width="60" height="14" fill="#660066"/><text x="242" y="395" class="vt" font-size="11" fill="#fff">TF-IDF</text>
+  <rect x="302" y="384" width="40" height="14" fill="#17becf"/><text x="306" y="395" class="vt" font-size="11" fill="#fff">joblib</text>
+  <text x="24" y="411" class="vt" font-size="11" fill="#555">LR · SVM · Random Forest · Majority Vote · Confidence Scoring</text>
+
+  <!-- MOBILE -->
+  <rect x="18" y="423" width="392" height="36" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="437" class="vt" font-size="12" fill="#000080" font-weight="bold">[ MOBILE ]</text>
+  <rect x="24" y="440" width="52" height="14" fill="#54c5f8"/><text x="28" y="451" class="vt" font-size="11" fill="#000">Flutter</text>
+  <rect x="80" y="440" width="36" height="14" fill="#00b4ab"/><text x="84" y="451" class="vt" font-size="11" fill="#fff">Dart</text>
+  <rect x="120" y="440" width="58" height="14" fill="#3ddc84"/><text x="124" y="451" class="vt" font-size="11" fill="#000">Android</text>
+  <rect x="182" y="440" width="36" height="14" fill="#555"/><text x="186" y="451" class="vt" font-size="11" fill="#fff">iOS</text>
+  <rect x="222" y="440" width="62" height="14" fill="#54c5f8" stroke="#888" stroke-width="0.5"/><text x="226" y="451" class="vt" font-size="11" fill="#000">Cross-plat</text>
+
+  <!-- TOOLS -->
+  <rect x="18" y="463" width="392" height="36" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="477" class="vt" font-size="12" fill="#333" font-weight="bold">[ TOOLS + OTHER ]</text>
+  <rect x="24" y="480" width="28" height="14" fill="#f05032"/><text x="28" y="491" class="vt" font-size="11" fill="#fff">Git</text>
+  <rect x="56" y="480" width="52" height="14" fill="#440088"/><text x="60" y="491" class="vt" font-size="11" fill="#fff">GitHub</text>
+  <rect x="112" y="480" width="60" height="14" fill="#007acc"/><text x="116" y="491" class="vt" font-size="11" fill="#fff">VS Code</text>
+  <rect x="176" y="480" width="52" height="14" fill="#884400"/><text x="180" y="491" class="vt" font-size="11" fill="#fff">Postman</text>
+  <rect x="232" y="480" width="46" height="14" fill="#3776ab"/><text x="236" y="491" class="vt" font-size="11" fill="#fff">Kaggle</text>
+  <rect x="282" y="480" width="58" height="14" fill="#cc44cc"/><text x="286" y="491" class="vt" font-size="11" fill="#fff">GH Actions</text>
+
+  <!-- progress bar -->
+  <text x="18" y="514" class="vt" font-size="11" fill="#333">skill level loading...</text>
+  <text x="375" y="514" class="vt" font-size="11" fill="#333">∞ %</text>
+  <rect x="18" y="517" width="392" height="14" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <rect x="19" y="518" class="prog1" height="12" fill="url(#stripe)" width="0"/>
+
+  <!-- statusbar -->
+  <rect x="10" y="548" width="408" height="14" fill="#d4d0c8"/>
+  <rect x="10" y="548" width="408" height="1" fill="#888"/>
+  <rect x="12" y="549" width="130" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="15" y="558" class="vt" font-size="11" fill="#444">10 technologies loaded ✓</text>
+
+  <!-- ═══ WINDOW 3 — NOTEPAD (right) ═══ -->
+  <rect x="432" y="194" width="390" height="370" fill="rgba(0,0,0,0.35)"/>
+  <rect x="430" y="192" width="390" height="370" fill="#d4d0c8" stroke="#fff" stroke-width="1.5"/>
+  <rect x="430" y="192" width="390" height="370" fill="none" stroke="#555" stroke-width="1"/>
+  <rect x="430" y="192" width="390" height="20" fill="url(#g-purple)"/>
+  <text x="438" y="206" class="vt" font-size="14" fill="#fff">📂  about_me.txt — Notepad</text>
+  <rect x="776" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="780" y="205" class="vt" font-size="10" fill="#000">_</text>
+  <rect x="792" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="795" y="205" class="vt" font-size="10" fill="#000">□</text>
+  <rect x="806" y="194" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="809" y="205" class="vt" font-size="10" fill="#000">✕</text>
+  <rect x="438" y="213" width="374" height="310" fill="#000" stroke="#00ff00" stroke-width="1"/>
+  <text x="444" y="228" class="vt" font-size="12" fill="#888">// about_me.txt  —  all 5 repos</text>
+  <text x="444" y="244" class="vt" font-size="12" fill="#ffff00">const</text><text x="480" y="244" class="vt" font-size="12" fill="#00ff00"> amna = {</text>
+  <text x="444" y="260" class="vt" font-size="12" fill="#00ff00">  name:    </text><text x="506" y="260" class="vt" font-size="12" fill="#ff8800">"Amna Arshad"</text><text x="596" y="260" class="vt" font-size="12" fill="#00ff00">,</text>
+  <text x="444" y="276" class="vt" font-size="12" fill="#00ff00">  study:   </text><text x="506" y="276" class="vt" font-size="12" fill="#ff8800">"CS Undergrad"</text><text x="596" y="276" class="vt" font-size="12" fill="#00ff00">,</text>
+  <text x="444" y="292" class="vt" font-size="12" fill="#00ff00">  repos: [</text>
+  <text x="452" y="308" class="vt" font-size="12" fill="#888">    //</text><text x="478" y="308" class="vt" font-size="12" fill="#aaa"> fun site</text>
+  <text x="444" y="324" class="vt" font-size="12" fill="#ff8800">    "tired-avocado"</text><text x="580" y="324" class="vt" font-size="12" fill="#888">// HTML·CSS·JS</text>
+  <text x="452" y="340" class="vt" font-size="12" fill="#888">    //</text><text x="478" y="340" class="vt" font-size="12" fill="#aaa"> healthcare platform</text>
+  <text x="444" y="356" class="vt" font-size="12" fill="#ff8800">    "OPD_Connect"</text><text x="574" y="356" class="vt" font-size="12" fill="#888">// PHP·MySQL·Bootstrap</text>
+  <text x="452" y="372" class="vt" font-size="12" fill="#888">    //</text><text x="478" y="372" class="vt" font-size="12" fill="#aaa"> MERN cybersec platform</text>
+  <text x="444" y="388" class="vt" font-size="12" fill="#ff8800">    "CyberSec-Agent"</text><text x="578" y="388" class="vt" font-size="12" fill="#888">// React·Node·MongoDB</text>
+  <text x="452" y="404" class="vt" font-size="12" fill="#888">    //</text><text x="478" y="404" class="vt" font-size="12" fill="#aaa"> NLP hate speech detector</text>
+  <text x="444" y="420" class="vt" font-size="12" fill="#ff8800">    "HateGuard"</text><text x="546" y="420" class="vt" font-size="12" fill="#888">// Python·Flask·ML</text>
+  <text x="452" y="436" class="vt" font-size="12" fill="#888">    //</text><text x="478" y="436" class="vt" font-size="12" fill="#aaa"> electricity bill tracker</text>
+  <text x="444" y="452" class="vt" font-size="12" fill="#ff8800">    "PowerTrack"</text><text x="554" y="452" class="vt" font-size="12" fill="#888">// Flutter·Dart·Android</text>
+  <text x="444" y="468" class="vt" font-size="12" fill="#00ff00">  ],</text>
+  <text x="444" y="484" class="vt" font-size="12" fill="#00ff00">  coffee:  </text><text x="510" y="484" class="vt" font-size="12" fill="#ffff00">true</text><text x="538" y="484" class="vt" font-size="12" fill="#888">  // obviously</text>
+  <text x="444" y="500" class="vt" font-size="12" fill="#00ff00">  bugs:    </text><text x="510" y="500" class="vt" font-size="12" fill="#ffff00">false</text><text x="542" y="500" class="vt" font-size="12" fill="#888"> // haha :)</text>
+  <text x="444" y="516" class="vt" font-size="12" fill="#00ff00">};</text>
+  <text x="444" y="532" class="vt blink" font-size="12" fill="#00ff00">█</text>
+
+  <rect x="430" y="548" width="390" height="14" fill="#d4d0c8"/>
+  <rect x="430" y="548" width="390" height="1" fill="#888"/>
+  <rect x="432" y="549" width="55" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="435" y="558" class="vt" font-size="11" fill="#444">Ln 1, Col 1</text>
+  <rect x="490" y="549" width="40" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="493" y="558" class="vt" font-size="11" fill="#444">UTF-8</text>
+
+  <!-- ═══ WINDOW 4 — REPOS ═══ -->
+  <rect x="12" y="576" width="796" height="278" fill="rgba(0,0,0,0.35)"/>
+  <rect x="10" y="574" width="796" height="278" fill="#d4d0c8" stroke="#fff" stroke-width="1.5"/>
+  <rect x="10" y="574" width="796" height="278" fill="none" stroke="#555" stroke-width="1"/>
+  <rect x="10" y="574" width="796" height="20" fill="url(#g-teal)"/>
+  <text x="18" y="588" class="vt" font-size="14" fill="#fff">📁  repos  [ 5 total ] — Explorer</text>
+  <rect x="764" y="576" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="768" y="587" class="vt" font-size="10" fill="#000">_</text>
+  <rect x="780" y="576" width="14" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="783" y="587" class="vt" font-size="10" fill="#000">□</text>
+  <rect x="796" y="576" width="10" height="13" fill="#d4d0c8" stroke="#fff" stroke-width="0.5"/><text x="799" y="587" class="vt" font-size="10" fill="#000">✕</text>
+
+  <!-- Repo row 1 — tired-avocado -->
+  <rect x="18" y="597" width="380" height="42" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="612" class="vt" font-size="13" fill="#000080">📄 tired-avocado</text>
+  <rect x="170" y="600" width="32" height="13" fill="#e34c26"/><text x="174" y="611" class="vt" font-size="11" fill="#fff">HTML</text>
+  <rect x="206" y="600" width="30" height="13" fill="#264de4"/><text x="210" y="611" class="vt" font-size="11" fill="#fff">CSS</text>
+  <rect x="240" y="600" width="20" height="13" fill="#f0db4f"/><text x="244" y="611" class="vt" font-size="11" fill="#000">JS</text>
+  <text x="24" y="630" class="vt" font-size="11" fill="#555">just a fun site ;)  ·  pinned ★</text>
+
+  <!-- Repo row 2 — OPD_Connect -->
+  <rect x="410" y="597" width="382" height="42" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="416" y="612" class="vt" font-size="13" fill="#000080">📄 OPD_Connect</text>
+  <rect x="562" y="600" width="22" height="13" fill="#4f5d95"/><text x="566" y="611" class="vt" font-size="11" fill="#fff">PHP</text>
+  <rect x="588" y="600" width="46" height="13" fill="#00758f"/><text x="592" y="611" class="vt" font-size="11" fill="#fff">MySQL</text>
+  <rect x="638" y="600" width="62" height="13" fill="#563d7c"/><text x="642" y="611" class="vt" font-size="11" fill="#fff">Bootstrap5</text>
+  <text x="416" y="630" class="vt" font-size="11" fill="#555">healthcare platform  ·  PHP OOP + PDO  ·  pinned ★</text>
+
+  <!-- Repo row 3 — CyberSec -->
+  <rect x="18" y="643" width="380" height="42" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="658" class="vt" font-size="13" fill="#000080">📄 CyberSec-Analysis-Agent</text>
+  <rect x="24" y="662" width="46" height="13" fill="#61dafb" stroke="#999" stroke-width="0.5"/><text x="28" y="673" class="vt" font-size="11" fill="#000">React</text>
+  <rect x="74" y="662" width="46" height="13" fill="#68a063"/><text x="78" y="673" class="vt" font-size="11" fill="#fff">Node.js</text>
+  <rect x="124" y="662" width="62" height="13" fill="#444"/><text x="128" y="673" class="vt" font-size="11" fill="#fff">Express.js</text>
+  <rect x="190" y="662" width="58" height="13" fill="#4db33d"/><text x="194" y="673" class="vt" font-size="11" fill="#fff">MongoDB</text>
+  <rect x="252" y="662" width="20" height="13" fill="#f0db4f"/><text x="256" y="673" class="vt" font-size="11" fill="#000">JS</text>
+
+  <!-- Repo row 4 — HateGuard -->
+  <rect x="410" y="643" width="382" height="42" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="416" y="658" class="vt" font-size="13" fill="#000080">📄 HateGuard</text>
+  <rect x="416" y="662" width="50" height="13" fill="#3776ab"/><text x="420" y="673" class="vt" font-size="11" fill="#fff">Python</text>
+  <rect x="470" y="662" width="36" height="13" fill="#333"/><text x="474" y="673" class="vt" font-size="11" fill="#fff">Flask</text>
+  <rect x="510" y="662" width="76" height="13" fill="#f7931e"/><text x="514" y="673" class="vt" font-size="11" fill="#fff">scikit-learn</text>
+  <rect x="590" y="662" width="36" height="13" fill="#154f5b"/><text x="594" y="673" class="vt" font-size="11" fill="#fff">NLTK</text>
+  <rect x="630" y="662" width="28" height="13" fill="#30c0c0"/><text x="634" y="673" class="vt" font-size="11" fill="#000">CSS</text>
+
+  <!-- Repo row 5 — PowerTrack -->
+  <rect x="18" y="689" width="380" height="42" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <text x="24" y="704" class="vt" font-size="13" fill="#000080">📄 PowerTrack</text>
+  <rect x="24" y="708" width="52" height="13" fill="#54c5f8"/><text x="28" y="719" class="vt" font-size="11" fill="#000">Flutter</text>
+  <rect x="80" y="708" width="36" height="13" fill="#00b4ab"/><text x="84" y="719" class="vt" font-size="11" fill="#fff">Dart</text>
+  <rect x="120" y="708" width="58" height="13" fill="#3ddc84"/><text x="124" y="719" class="vt" font-size="11" fill="#000">Android</text>
+  <text x="24" y="726" class="vt" font-size="11" fill="#555">electricity bill tracker  ·  cross-platform  ·  15 commits</text>
+
+  <!-- info panel -->
+  <rect x="410" y="689" width="382" height="42" fill="#eee" stroke="#888" stroke-width="0.8"/>
+  <text x="416" y="705" class="vt" font-size="12" fill="#440088">✦  stacks covered:</text>
+  <text x="416" y="720" class="vt" font-size="12" fill="#333">Web · MERN · PHP+MySQL · NLP/ML · Mobile</text>
+
+  <!-- progress -->
+  <text x="18" y="748" class="vt" font-size="11" fill="#333">repo streak loading...</text>
+  <rect x="18" y="751" width="774" height="14" fill="#fff" stroke="#888" stroke-width="0.8"/>
+  <rect x="19" y="752" class="prog2" height="12" fill="url(#stripe)" width="0"/>
+
+  <rect x="10" y="838" width="796" height="14" fill="#d4d0c8"/>
+  <rect x="10" y="838" width="796" height="1" fill="#888"/>
+  <rect x="12" y="839" width="160" height="12" fill="none" stroke="#888" stroke-width="0.7"/><text x="15" y="848" class="vt" font-size="11" fill="#444">5 repos · 5 stacks · 1 Amna</text>
+
+  <!-- ═══ FOOTER MESSAGE ═══ -->
+  <rect x="12" y="866" width="796" height="58" fill="rgba(0,0,0,0.35)"/>
+  <rect x="10" y="864" width="796" height="58" fill="#d4d0c8" stroke="#fff" stroke-width="1.5"/>
+  <rect x="10" y="864" width="796" height="58" fill="none" stroke="#555" stroke-width="1"/>
+  <rect x="10" y="864" width="796" height="18" fill="url(#g-blue)"/>
+  <text x="18" y="877" class="vt" font-size="13" fill="#fff">✉  message.exe</text>
+  <text x="410" y="893" class="vt" font-size="17" fill="#440088" text-anchor="middle">·:*¨¨*:·.  thanks for visiting, bestie  ·:*¨¨*:·.</text>
+  <text x="410" y="913" class="vt blink" font-size="16" fill="#000080" text-anchor="middle">★  star a repo if u like what u see!  ★</text>
+
+  <!-- ═══ TASKBAR ═══ -->
+  <rect x="0" y="930" width="820" height="32" fill="url(#g-taskbar)"/>
+  <rect x="0" y="930" width="820" height="2" fill="#54a8e8"/>
+  <rect x="4" y="933" width="72" height="22" fill="url(#g-start)" rx="10" stroke="#1a6616" stroke-width="1"/>
+  <text x="10" y="949" class="vt" font-size="16" fill="#fff" font-weight="bold">⊞  start</text>
+  <rect x="82" y="934" width="94" height="20" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="0.7"/>
+  <text x="86" y="948" class="vt" font-size="12" fill="#fff">👤 profile.exe</text>
+  <rect x="180" y="934" width="76" height="20" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="0.7"/>
+  <text x="184" y="948" class="vt" font-size="12" fill="#fff">💾 skills.ini</text>
+  <rect x="260" y="934" width="76" height="20" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="0.7"/>
+  <text x="264" y="948" class="vt" font-size="12" fill="#fff">📝 about_me</text>
+  <rect x="340" y="934" width="76" height="20" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="0.7"/>
+  <text x="344" y="948" class="vt" font-size="12" fill="#fff">📁 repos [5]</text>
+  <rect x="756" y="932" width="60" height="22" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="0.7"/>
+  <text x="762" y="947" class="vt" font-size="13" fill="#fff">12:00</text>
+</svg>

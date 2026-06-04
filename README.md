@@ -66,7 +66,7 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 
 ---
 
-## 📂 My GitHub Projects 🥑
+## 📂 My Projects 🥑
 
 <div align="center">
 
@@ -86,19 +86,8 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 
 <div align="center">
 
-### 🔥 Streak
-![](https://nirzak-streak-stats.vercel.app/?user=aamnaarshad&theme=tokyonight&hide_border=true&ring=a8cc3c&fire=a8cc3c&currStreakLabel=a8cc3c)
-
-### 📈 Stats & Languages
-![](https://github-readme-stats.vercel.app/api?username=aamnaarshad&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=a8cc3c&icon_color=a8cc3c)
-&nbsp;
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=aamnaarshad&layout=compact&theme=tokyonight&hide_border=true&title_color=a8cc3c&langs_count=8)
-
 ### 📊 Contribution Graph
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=aamnaarshad&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=a8cc3c&line=a8cc3c&point=ffffff"/>
-
-### 🏆 Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=aamnaarshad&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6"/>
 
 </div>
 

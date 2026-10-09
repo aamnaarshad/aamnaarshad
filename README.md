@@ -1,14 +1,20 @@
 <div align="center">
 
-![banner](./banner.svg)
+![banner](./banner-bg.svg)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=A8CC3C&center=true&vCenter=true&width=650&lines=Computer+Science+Undergrad+%F0%9F%8E%93;MERN+Stack+Developer+%F0%9F%92%BB;ML+%2F+NLP+Engineer+%F0%9F%A4%96;Flutter+%26+Mobile+Dev+%F0%9F%93%B1;Design+%C2%B7+Logic+%C2%B7+Coffee+%E2%98%95" alt="Typing SVG" />
+# Amna Arshad
+
+**CS Undergrad · ML / NLP · Data Science**
+
+*design · logic · coffee ✦*
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=C77DFF&center=true&vCenter=true&width=650&lines=Computer+Science+Undergrad+%F0%9F%8E%93;MERN+Stack+Developer+%F0%9F%92%BB;ML+%2F+NLP+Engineer+%F0%9F%A4%96;Flutter+%26+Mobile+Dev+%F0%9F%93%B1;Design+%C2%B7+Logic+%C2%B7+Coffee+%E2%98%95" alt="Typing SVG" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-amnaarshad05-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amnaarshad05)
-[![GitHub followers](https://img.shields.io/github/followers/aamnaarshad?style=for-the-badge&logo=github&logoColor=white&color=5c8a1a)](https://github.com/aamnaarshad)
-[![Profile Views](https://komarev.com/ghpvc/?username=aamnaarshad&style=for-the-badge&color=a8cc3c&label=VISITORS)](https://github.com/aamnaarshad)
+[![GitHub followers](https://img.shields.io/github/followers/aamnaarshad?style=for-the-badge&logo=github&logoColor=white&color=c77dff)](https://github.com/aamnaarshad)
+[![Profile Views](https://komarev.com/ghpvc/?username=aamnaarshad&style=for-the-badge&color=ff8fb5&label=VISITORS)](https://github.com/aamnaarshad)
 
 </div>
 
@@ -16,12 +22,12 @@
 
 ## 🥑 About Me
 
-Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes building things that are equal parts functional and well-designed.
+Hey! I'm **Amna Arshad**, a CS undergrad from **Pakistan 🇵🇰** who likes building things that are equal parts functional and well designed.
 
-- Full-stack: from PHP+MySQL to the whole MERN stack
-- Trained ML models to detect hate speech using ensemble NLP — check HateGuard!
-- Built a cross-platform Android/iOS app with Flutter
-- Coffee-fuelled, lo-fi-coded, bug-hunting CS student
+- Full stack: from PHP+MySQL to the whole MERN stack
+- Trained ML models to detect hate speech using ensemble NLP. check HateGuard!
+- Built a cross platform Android/iOS app with Flutter
+- Coffee fuelled, lo-fi coded, bug hunting CS student
 - Currently: learning more · building more · breaking less
 
 ---
@@ -87,19 +93,7 @@ Hey! I'm **Amna Arshad** — a CS undergrad from **Pakistan 🇵🇰** who likes
 <div align="center">
 
 ### 📊 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aamnaarshad&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=a8cc3c&line=a8cc3c&point=ffffff"/>
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![snake](https://github.com/aamnaarshad/aamnaarshad/blob/output/github-contribution-grid-snake-dark.svg)
-
-*my commits, getting eaten 🐍🥑*
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aamnaarshad&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=ff9ecb&line=c77dff&point=ffffff"/>
 
 </div>
 
